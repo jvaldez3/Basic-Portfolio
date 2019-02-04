@@ -1,0 +1,19 @@
+.container {
+    border-color: #dddddd;
+    background-color: #ffffff;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.header {
+    border-color: #777777;
+    color: #4aaaa5;
+    background-color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    float: right;
+    color: #777;
+    margin-top: -25px;
+}
