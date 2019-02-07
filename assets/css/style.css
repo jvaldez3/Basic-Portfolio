@@ -5,12 +5,12 @@
 
 .header {
     border-color: #cccccc;
+    color: #cccccc;
     display: inline-block;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .name {
@@ -18,13 +18,13 @@
     background-color: #4aaaa5;
     float: left;
     padding: 16px;
+    position: fixed;
 }
 
 #horizontal-list {
     text-align: right;
     float: right;
     margin-top: 45px;
-
 }
 
 ul#horizontal-list li {
@@ -42,15 +42,16 @@ ul#horizontal-list li {
     height: 100%;
     background-image: url("../../prism.png");
     padding-top: 30px;
+    position: fixed;
 }
 
 #main-bio {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 50px;
     border: solid lightgray 1px;
-    padding: 0 40px 0 40px;
+    padding: 0 40px 100px 40px;
     background-color: #ffffff;
 }
 
@@ -62,25 +63,59 @@ ul#horizontal-list li {
 }
 
 p {
-    font-size: 14px;
-    line-height: 2;
+    font-size: 16px;
+    line-height: 2.5;
     margin-left: 5px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.textWrap {}
-
 h2 {
-    color: #4aaaa5
+    color: #4aaaa5;
 }
 
 hr {
     background-color: lightgray;
 }
 
-footer {
+.footer {
     width: 100%;
     height: 50px;
     border-top: 5px solid #4aaaa5;
     background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.copyright {
+    font-size: 10px;
+    bottom: 0;
+    padding-top: 15px
+}
+
+#contact-page {
+    width: 960px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    border: solid lightgray 1px;
+    padding: 0 40px 100px 40px;
+    background-color: #ffffff;
+}
+
+#portfolio {
+    width: 960px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50px;
+    border: solid lightgray 1px;
+    padding: 0 40px 100px 40px;
+    background-color: #ffffff;
+}
+
+.MyButton {
+    height: 150px;
+    width: 150px;
 }
